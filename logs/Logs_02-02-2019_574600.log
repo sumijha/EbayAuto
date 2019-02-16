@@ -1,0 +1,14 @@
+02/02/2019 06:17:00 AM POST http://127.0.0.1:61792/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized"]}}}
+02/02/2019 06:17:00 AM Starting new HTTP connection (1): 127.0.0.1:61792
+02/02/2019 06:17:02 AM http://127.0.0.1:61792 "POST /session HTTP/1.1" 200 829
+02/02/2019 06:17:02 AM Finished Request
+02/02/2019 06:17:02 AM Successfully launched the Home Page
+02/02/2019 06:17:07 AM POST http://127.0.0.1:61792/session/b9dd28df1217733de248e49ec81afee7/url {"url": "https://www.iaai.com/Vehicle?itemID=30897142&amp;RowNumber=0", "sessionId": "b9dd28df1217733de248e49ec81afee7"}
+02/02/2019 06:17:17 AM http://127.0.0.1:61792 "POST /session/b9dd28df1217733de248e49ec81afee7/url HTTP/1.1" 200 72
+02/02/2019 06:17:17 AM Finished Request
+02/02/2019 06:17:27 AM GET http://127.0.0.1:61792/session/b9dd28df1217733de248e49ec81afee7/source {"sessionId": "b9dd28df1217733de248e49ec81afee7"}
+02/02/2019 06:17:27 AM http://127.0.0.1:61792 "GET /session/b9dd28df1217733de248e49ec81afee7/source HTTP/1.1" 200 343993
+02/02/2019 06:17:27 AM Finished Request
+02/02/2019 06:17:31 AM POST http://127.0.0.1:61792/session/b9dd28df1217733de248e49ec81afee7/url {"url": "https://www.ebay.de/myb/Summary", "sessionId": "b9dd28df1217733de248e49ec81afee7"}
+02/02/2019 06:17:36 AM http://127.0.0.1:61792 "POST /session/b9dd28df1217733de248e49ec81afee7/url HTTP/1.1" 200 72
+02/02/2019 06:17:36 AM Finished Request

@@ -1,0 +1,38 @@
+01/23/2019 05:35:00 PM POST http://127.0.0.1:61343/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized"]}}}
+01/23/2019 05:35:00 PM Starting new HTTP connection (1): 127.0.0.1:61343
+01/23/2019 05:35:02 PM http://127.0.0.1:61343 "POST /session HTTP/1.1" 200 829
+01/23/2019 05:35:02 PM Finished Request
+01/23/2019 05:35:02 PM Successfully launched the Home Page
+01/23/2019 05:35:07 PM POST http://127.0.0.1:61343/session/c5d51b342b584362d698f324e77d2247/url {"url": "https://www.ebay.de/myb/Summary", "sessionId": "c5d51b342b584362d698f324e77d2247"}
+01/23/2019 05:35:11 PM http://127.0.0.1:61343 "POST /session/c5d51b342b584362d698f324e77d2247/url HTTP/1.1" 200 72
+01/23/2019 05:35:11 PM Finished Request
+01/23/2019 05:35:11 PM POST http://127.0.0.1:61343/session/c5d51b342b584362d698f324e77d2247/element {"using": "xpath", "value": "//input[@id='userid']", "sessionId": "c5d51b342b584362d698f324e77d2247"}
+01/23/2019 05:35:11 PM http://127.0.0.1:61343 "POST /session/c5d51b342b584362d698f324e77d2247/element HTTP/1.1" 200 101
+01/23/2019 05:35:11 PM Finished Request
+01/23/2019 05:35:11 PM POST http://127.0.0.1:61343/session/c5d51b342b584362d698f324e77d2247/element/0.523248774958069-1/clear {"id": "0.523248774958069-1", "sessionId": "c5d51b342b584362d698f324e77d2247"}
+01/23/2019 05:35:11 PM http://127.0.0.1:61343 "POST /session/c5d51b342b584362d698f324e77d2247/element/0.523248774958069-1/clear HTTP/1.1" 200 72
+01/23/2019 05:35:11 PM Finished Request
+01/23/2019 05:35:11 PM POST http://127.0.0.1:61343/session/c5d51b342b584362d698f324e77d2247/element {"using": "xpath", "value": "//input[@id='userid']", "sessionId": "c5d51b342b584362d698f324e77d2247"}
+01/23/2019 05:35:11 PM http://127.0.0.1:61343 "POST /session/c5d51b342b584362d698f324e77d2247/element HTTP/1.1" 200 101
+01/23/2019 05:35:11 PM Finished Request
+01/23/2019 05:35:11 PM POST http://127.0.0.1:61343/session/c5d51b342b584362d698f324e77d2247/element/0.523248774958069-1/value {"text": "troedelbucht32", "value": ["t", "r", "o", "e", "d", "e", "l", "b", "u", "c", "h", "t", "3", "2"], "id": "0.523248774958069-1", "sessionId": "c5d51b342b584362d698f324e77d2247"}
+01/23/2019 05:35:11 PM http://127.0.0.1:61343 "POST /session/c5d51b342b584362d698f324e77d2247/element/0.523248774958069-1/value HTTP/1.1" 200 72
+01/23/2019 05:35:11 PM Finished Request
+01/23/2019 05:35:11 PM POST http://127.0.0.1:61343/session/c5d51b342b584362d698f324e77d2247/element {"using": "xpath", "value": "//input[@id='pass']", "sessionId": "c5d51b342b584362d698f324e77d2247"}
+01/23/2019 05:35:11 PM http://127.0.0.1:61343 "POST /session/c5d51b342b584362d698f324e77d2247/element HTTP/1.1" 200 101
+01/23/2019 05:35:11 PM Finished Request
+01/23/2019 05:35:11 PM POST http://127.0.0.1:61343/session/c5d51b342b584362d698f324e77d2247/element/0.523248774958069-2/clear {"id": "0.523248774958069-2", "sessionId": "c5d51b342b584362d698f324e77d2247"}
+01/23/2019 05:35:11 PM http://127.0.0.1:61343 "POST /session/c5d51b342b584362d698f324e77d2247/element/0.523248774958069-2/clear HTTP/1.1" 200 72
+01/23/2019 05:35:11 PM Finished Request
+01/23/2019 05:35:11 PM POST http://127.0.0.1:61343/session/c5d51b342b584362d698f324e77d2247/element {"using": "xpath", "value": "//input[@id='pass']", "sessionId": "c5d51b342b584362d698f324e77d2247"}
+01/23/2019 05:35:11 PM http://127.0.0.1:61343 "POST /session/c5d51b342b584362d698f324e77d2247/element HTTP/1.1" 200 101
+01/23/2019 05:35:11 PM Finished Request
+01/23/2019 05:35:11 PM POST http://127.0.0.1:61343/session/c5d51b342b584362d698f324e77d2247/element/0.523248774958069-2/value {"text": "9R7PKDRj", "value": ["9", "R", "7", "P", "K", "D", "R", "j"], "id": "0.523248774958069-2", "sessionId": "c5d51b342b584362d698f324e77d2247"}
+01/23/2019 05:35:11 PM http://127.0.0.1:61343 "POST /session/c5d51b342b584362d698f324e77d2247/element/0.523248774958069-2/value HTTP/1.1" 200 72
+01/23/2019 05:35:11 PM Finished Request
+01/23/2019 05:35:11 PM waiting for element //button[@id='sgnBt']
+01/23/2019 05:35:11 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 05:35:11 PM POST http://127.0.0.1:61343/session/c5d51b342b584362d698f324e77d2247/element {"using": "xpath", "value": "//button[@id='sgnBt']", "sessionId": "c5d51b342b584362d698f324e77d2247"}
+01/23/2019 05:35:11 PM http://127.0.0.1:61343 "POST /session/c5d51b342b584362d698f324e77d2247/element HTTP/1.1" 200 101
+01/23/2019 05:35:11 PM Finished Request
+01/23/2019 05:35:11 PM POST http://127.0.0.1:61343/session/c5d51b342b584362d698f324e77d2247/element/0.523248774958069-3/click {"id": "0.523248774958069-3", "sessionId": "c5d51b342b584362d698f324e77d2247"}

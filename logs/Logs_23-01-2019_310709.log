@@ -1,0 +1,99 @@
+01/23/2019 02:37:34 PM POST http://127.0.0.1:60709/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized"]}}}
+01/23/2019 02:37:34 PM Starting new HTTP connection (1): 127.0.0.1:60709
+01/23/2019 02:37:36 PM http://127.0.0.1:60709 "POST /session HTTP/1.1" 200 828
+01/23/2019 02:37:36 PM Finished Request
+01/23/2019 02:37:36 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/url {"url": "https://www.gmx.net/", "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:37:45 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/url HTTP/1.1" 200 72
+01/23/2019 02:37:45 PM Finished Request
+01/23/2019 02:37:45 PM waiting for element //*[@id='freemailLoginUsername']
+01/23/2019 02:37:45 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 02:37:45 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/element {"using": "xpath", "value": "//*[@id='freemailLoginUsername']", "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:37:45 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/element HTTP/1.1" 200 103
+01/23/2019 02:37:45 PM Finished Request
+01/23/2019 02:37:45 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/execute {"script": "return arguments[0].scrollIntoView();", "args": [{"ELEMENT": "0.44638901228466166-1", "element-6066-11e4-a52e-4f735466cecf": "0.44638901228466166-1"}], "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:37:45 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/execute HTTP/1.1" 200 72
+01/23/2019 02:37:45 PM Finished Request
+01/23/2019 02:37:45 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/element {"using": "xpath", "value": "//*[@id='freemailLoginUsername']", "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:37:45 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/element HTTP/1.1" 200 103
+01/23/2019 02:37:45 PM Finished Request
+01/23/2019 02:37:45 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/element/0.44638901228466166-1/clear {"id": "0.44638901228466166-1", "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:37:45 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/element/0.44638901228466166-1/clear HTTP/1.1" 200 72
+01/23/2019 02:37:45 PM Finished Request
+01/23/2019 02:37:45 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/element {"using": "xpath", "value": "//*[@id='freemailLoginUsername']", "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:37:45 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/element HTTP/1.1" 200 103
+01/23/2019 02:37:45 PM Finished Request
+01/23/2019 02:37:45 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/element/0.44638901228466166-1/value {"text": "christian.ganslmayer78@gmx.de", "value": ["c", "h", "r", "i", "s", "t", "i", "a", "n", ".", "g", "a", "n", "s", "l", "m", "a", "y", "e", "r", "7", "8", "@", "g", "m", "x", ".", "d", "e"], "id": "0.44638901228466166-1", "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:37:45 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/element/0.44638901228466166-1/value HTTP/1.1" 200 72
+01/23/2019 02:37:45 PM Finished Request
+01/23/2019 02:37:45 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/element {"using": "xpath", "value": "//*[@id='freemailLoginPassword']", "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:37:45 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/element HTTP/1.1" 200 103
+01/23/2019 02:37:45 PM Finished Request
+01/23/2019 02:37:45 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/element/0.44638901228466166-2/clear {"id": "0.44638901228466166-2", "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:37:45 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/element/0.44638901228466166-2/clear HTTP/1.1" 200 72
+01/23/2019 02:37:45 PM Finished Request
+01/23/2019 02:37:45 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/element {"using": "xpath", "value": "//*[@id='freemailLoginPassword']", "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:37:45 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/element HTTP/1.1" 200 103
+01/23/2019 02:37:45 PM Finished Request
+01/23/2019 02:37:45 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/element/0.44638901228466166-2/value {"text": "a1KSDFu7", "value": ["a", "1", "K", "S", "D", "F", "u", "7"], "id": "0.44638901228466166-2", "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:37:45 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/element/0.44638901228466166-2/value HTTP/1.1" 200 72
+01/23/2019 02:37:45 PM Finished Request
+01/23/2019 02:37:45 PM waiting for element //*[@id='freemailLoginPassword']/ancestor::fieldset//input[@value='Login']
+01/23/2019 02:37:45 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 02:37:45 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/element {"using": "xpath", "value": "//*[@id='freemailLoginPassword']/ancestor::fieldset//input[@value='Login']", "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:37:45 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/element HTTP/1.1" 200 103
+01/23/2019 02:37:45 PM Finished Request
+01/23/2019 02:37:45 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/element/0.44638901228466166-3/click {"id": "0.44638901228466166-3", "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:37:52 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/element/0.44638901228466166-3/click HTTP/1.1" 200 72
+01/23/2019 02:37:52 PM Finished Request
+01/23/2019 02:38:00 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/frame {"id": "thirdPartyFrame_home", "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:38:00 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/frame HTTP/1.1" 200 72
+01/23/2019 02:38:00 PM Finished Request
+01/23/2019 02:38:00 PM waiting for element //a[@title='Einstellungen']
+01/23/2019 02:38:00 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 02:38:00 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/element {"using": "xpath", "value": "//a[@title='Einstellungen']", "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:38:00 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/element HTTP/1.1" 200 102
+01/23/2019 02:38:00 PM Finished Request
+01/23/2019 02:38:00 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/element/0.7898913906902769-1/click {"id": "0.7898913906902769-1", "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:38:00 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/element/0.7898913906902769-1/click HTTP/1.1" 200 72
+01/23/2019 02:38:00 PM Finished Request
+01/23/2019 02:38:00 PM waiting for element //*[text()='Zu den Einstellungen']
+01/23/2019 02:38:00 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 02:38:00 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/element {"using": "xpath", "value": "//*[text()='Zu den Einstellungen']", "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:38:00 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/element HTTP/1.1" 200 102
+01/23/2019 02:38:00 PM Finished Request
+01/23/2019 02:38:00 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/element/0.7898913906902769-2/click {"id": "0.7898913906902769-2", "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:38:00 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/element/0.7898913906902769-2/click HTTP/1.1" 200 72
+01/23/2019 02:38:00 PM Finished Request
+01/23/2019 02:38:00 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/frame {"id": null, "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:38:01 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/frame HTTP/1.1" 200 72
+01/23/2019 02:38:01 PM Finished Request
+01/23/2019 02:38:01 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/frame {"id": "thirdPartyFrame_mail", "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:38:01 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/frame HTTP/1.1" 200 72
+01/23/2019 02:38:01 PM Finished Request
+01/23/2019 02:38:07 PM waiting for element //*[text()='Abwesenheitsnotiz']
+01/23/2019 02:38:07 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 02:38:07 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/element {"using": "xpath", "value": "//*[text()='Abwesenheitsnotiz']", "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:38:07 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/element HTTP/1.1" 200 102
+01/23/2019 02:38:07 PM Finished Request
+01/23/2019 02:38:07 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/element/0.4763352494832884-1/click {"id": "0.4763352494832884-1", "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:38:07 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/element/0.4763352494832884-1/click HTTP/1.1" 200 72
+01/23/2019 02:38:07 PM Finished Request
+01/23/2019 02:40:10 PM waiting for element //*[text()='ausgeschaltet']/preceding-sibling::input
+01/23/2019 02:40:10 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 02:40:10 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/element {"using": "xpath", "value": "//*[text()='ausgeschaltet']/preceding-sibling::input", "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:40:10 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/element HTTP/1.1" 200 103
+01/23/2019 02:40:10 PM Finished Request
+01/23/2019 02:40:10 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/element/0.10611247072383034-1/click {"id": "0.10611247072383034-1", "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:40:15 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/element/0.10611247072383034-1/click HTTP/1.1" 200 72
+01/23/2019 02:40:15 PM Finished Request
+01/23/2019 02:40:21 PM waiting for element //*[@name='buttonContainer:container:buttonContainer_body:submitButton']
+01/23/2019 02:40:21 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 02:40:21 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/element {"using": "xpath", "value": "//*[@name='buttonContainer:container:buttonContainer_body:submitButton']", "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:40:21 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/element HTTP/1.1" 200 103
+01/23/2019 02:40:21 PM Finished Request
+01/23/2019 02:40:21 PM POST http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/element/0.10611247072383034-2/click {"id": "0.10611247072383034-2", "sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:40:25 PM http://127.0.0.1:60709 "POST /session/7cb1edf225f4618d0a21f9955b0f84cb/element/0.10611247072383034-2/click HTTP/1.1" 200 72
+01/23/2019 02:40:25 PM Finished Request
+01/23/2019 02:41:57 PM DELETE http://127.0.0.1:60709/session/7cb1edf225f4618d0a21f9955b0f84cb/window {"sessionId": "7cb1edf225f4618d0a21f9955b0f84cb"}
+01/23/2019 02:41:59 PM http://127.0.0.1:60709 "DELETE /session/7cb1edf225f4618d0a21f9955b0f84cb/window HTTP/1.1" 200 72
+01/23/2019 02:41:59 PM Finished Request

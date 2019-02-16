@@ -1,0 +1,5 @@
+01/23/2019 11:49:14 PM POST http://127.0.0.1:61819/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized"]}}}
+01/23/2019 11:49:14 PM Starting new HTTP connection (1): 127.0.0.1:61819
+01/23/2019 11:49:16 PM http://127.0.0.1:61819 "POST /session HTTP/1.1" 200 828
+01/23/2019 11:49:16 PM Finished Request
+01/23/2019 11:49:16 PM Successfully launched the Home Page

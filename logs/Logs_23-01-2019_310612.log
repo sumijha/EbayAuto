@@ -1,0 +1,326 @@
+01/23/2019 05:36:34 PM POST http://127.0.0.1:61532/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized"]}}}
+01/23/2019 05:36:34 PM Starting new HTTP connection (1): 127.0.0.1:61532
+01/23/2019 05:36:36 PM http://127.0.0.1:61532 "POST /session HTTP/1.1" 200 828
+01/23/2019 05:36:36 PM Finished Request
+01/23/2019 05:36:36 PM Successfully launched the Home Page
+01/23/2019 05:36:41 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/url {"url": "https://www.ebay.de/myb/Summary", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:36:45 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/url HTTP/1.1" 200 72
+01/23/2019 05:36:45 PM Finished Request
+01/23/2019 05:36:45 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "//input[@id='userid']", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:36:45 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 103
+01/23/2019 05:36:45 PM Finished Request
+01/23/2019 05:36:45 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element/0.20344874196874851-1/clear {"id": "0.20344874196874851-1", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:36:45 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element/0.20344874196874851-1/clear HTTP/1.1" 200 72
+01/23/2019 05:36:45 PM Finished Request
+01/23/2019 05:36:45 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "//input[@id='userid']", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:36:45 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 103
+01/23/2019 05:36:45 PM Finished Request
+01/23/2019 05:36:45 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element/0.20344874196874851-1/value {"text": "troedelbucht32", "value": ["t", "r", "o", "e", "d", "e", "l", "b", "u", "c", "h", "t", "3", "2"], "id": "0.20344874196874851-1", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:36:45 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element/0.20344874196874851-1/value HTTP/1.1" 200 72
+01/23/2019 05:36:45 PM Finished Request
+01/23/2019 05:36:45 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "//input[@id='pass']", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:36:45 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 103
+01/23/2019 05:36:45 PM Finished Request
+01/23/2019 05:36:45 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element/0.20344874196874851-2/clear {"id": "0.20344874196874851-2", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:36:45 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element/0.20344874196874851-2/clear HTTP/1.1" 200 72
+01/23/2019 05:36:45 PM Finished Request
+01/23/2019 05:36:45 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "//input[@id='pass']", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:36:45 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 103
+01/23/2019 05:36:45 PM Finished Request
+01/23/2019 05:36:45 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element/0.20344874196874851-2/value {"text": "9R7PKDRj", "value": ["9", "R", "7", "P", "K", "D", "R", "j"], "id": "0.20344874196874851-2", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:36:45 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element/0.20344874196874851-2/value HTTP/1.1" 200 72
+01/23/2019 05:36:45 PM Finished Request
+01/23/2019 05:36:45 PM waiting for element //button[@id='sgnBt']
+01/23/2019 05:36:45 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 05:36:45 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "//button[@id='sgnBt']", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:36:45 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 103
+01/23/2019 05:36:45 PM Finished Request
+01/23/2019 05:36:45 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element/0.20344874196874851-3/click {"id": "0.20344874196874851-3", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:36:49 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element/0.20344874196874851-3/click HTTP/1.1" 200 72
+01/23/2019 05:36:49 PM Finished Request
+01/23/2019 05:36:53 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/url {"url": "https://bulksell.ebay.de/ws/eBayISAPI.dll?SingleList&sellingMode=AddItem", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:03 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/url HTTP/1.1" 200 72
+01/23/2019 05:37:03 PM Finished Request
+01/23/2019 05:37:05 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/frame {"id": "findprod_iframe", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:05 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/frame HTTP/1.1" 200 72
+01/23/2019 05:37:05 PM Finished Request
+01/23/2019 05:37:05 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "//input[@class='find-product']", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:05 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 102
+01/23/2019 05:37:05 PM Finished Request
+01/23/2019 05:37:05 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element/0.7962372859922382-1/clear {"id": "0.7962372859922382-1", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:05 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element/0.7962372859922382-1/clear HTTP/1.1" 200 72
+01/23/2019 05:37:05 PM Finished Request
+01/23/2019 05:37:05 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "//input[@class='find-product']", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:05 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 102
+01/23/2019 05:37:05 PM Finished Request
+01/23/2019 05:37:05 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element/0.7962372859922382-1/value {"text": "Grundkochbuch von Dr.Oetker", "value": ["G", "r", "u", "n", "d", "k", "o", "c", "h", "b", "u", "c", "h", " ", "v", "o", "n", " ", "D", "r", ".", "O", "e", "t", "k", "e", "r"], "id": "0.7962372859922382-1", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:05 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element/0.7962372859922382-1/value HTTP/1.1" 200 72
+01/23/2019 05:37:05 PM Finished Request
+01/23/2019 05:37:05 PM waiting for element //button[contains(@id,'find-product')]
+01/23/2019 05:37:05 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 05:37:05 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "//button[contains(@id,'find-product')]", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:05 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 102
+01/23/2019 05:37:05 PM Finished Request
+01/23/2019 05:37:05 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element/0.7962372859922382-2/click {"id": "0.7962372859922382-2", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:06 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element/0.7962372859922382-2/click HTTP/1.1" 200 72
+01/23/2019 05:37:06 PM Finished Request
+01/23/2019 05:37:10 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/frame {"id": null, "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:10 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/frame HTTP/1.1" 200 72
+01/23/2019 05:37:10 PM Finished Request
+01/23/2019 05:37:10 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/frame {"id": "findprod_iframe", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:10 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/frame HTTP/1.1" 200 72
+01/23/2019 05:37:10 PM Finished Request
+01/23/2019 05:37:10 PM waiting for element (//div[@class='actions']/button[@class='btn btn--primary'])[1]
+01/23/2019 05:37:10 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 05:37:10 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "(//div[@class='actions']/button[@class='btn btn--primary'])[1]", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:10 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 102
+01/23/2019 05:37:10 PM Finished Request
+01/23/2019 05:37:10 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element/0.7962372859922382-3/click {"id": "0.7962372859922382-3", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:10 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element/0.7962372859922382-3/click HTTP/1.1" 200 72
+01/23/2019 05:37:10 PM Finished Request
+01/23/2019 05:37:14 PM waiting for element (//div[@class='dialog__footer']/button[@class='btn btn--primary'])[1]
+01/23/2019 05:37:14 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 05:37:14 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "(//div[@class='dialog__footer']/button[@class='btn btn--primary'])[1]", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:14 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 102
+01/23/2019 05:37:14 PM Finished Request
+01/23/2019 05:37:14 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element/0.7962372859922382-4/click {"id": "0.7962372859922382-4", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:14 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element/0.7962372859922382-4/click HTTP/1.1" 200 72
+01/23/2019 05:37:14 PM Finished Request
+01/23/2019 05:37:20 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "//input[@id='pmCashOnPickup']", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:20 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 103
+01/23/2019 05:37:20 PM Finished Request
+01/23/2019 05:37:20 PM GET http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element/0.19332520068997106-1/selected {"id": "0.19332520068997106-1", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:20 PM http://127.0.0.1:61532 "GET /session/90dba757ce8ab623814afb1a9371f2dc/element/0.19332520068997106-1/selected HTTP/1.1" 200 73
+01/23/2019 05:37:20 PM Finished Request
+01/23/2019 05:37:20 PM waiting for element //input[@id='pmCashOnPickup']
+01/23/2019 05:37:20 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 05:37:20 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "//input[@id='pmCashOnPickup']", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:20 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 103
+01/23/2019 05:37:20 PM Finished Request
+01/23/2019 05:37:20 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element/0.19332520068997106-1/click {"id": "0.19332520068997106-1", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:20 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element/0.19332520068997106-1/click HTTP/1.1" 200 72
+01/23/2019 05:37:20 PM Finished Request
+01/23/2019 05:37:20 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "//input[@id='pmSeeDesc']", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:20 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 103
+01/23/2019 05:37:20 PM Finished Request
+01/23/2019 05:37:20 PM GET http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element/0.19332520068997106-2/selected {"id": "0.19332520068997106-2", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:20 PM http://127.0.0.1:61532 "GET /session/90dba757ce8ab623814afb1a9371f2dc/element/0.19332520068997106-2/selected HTTP/1.1" 200 73
+01/23/2019 05:37:20 PM Finished Request
+01/23/2019 05:37:20 PM waiting for element //input[@id='pmSeeDesc']
+01/23/2019 05:37:20 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 05:37:20 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "//input[@id='pmSeeDesc']", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:20 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 103
+01/23/2019 05:37:20 PM Finished Request
+01/23/2019 05:37:20 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element/0.19332520068997106-2/click {"id": "0.19332520068997106-2", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:20 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element/0.19332520068997106-2/click HTTP/1.1" 200 72
+01/23/2019 05:37:20 PM Finished Request
+01/23/2019 05:37:20 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "//input[@id='localPickup']", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:20 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 103
+01/23/2019 05:37:20 PM Finished Request
+01/23/2019 05:37:20 PM GET http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element/0.19332520068997106-3/selected {"id": "0.19332520068997106-3", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:20 PM http://127.0.0.1:61532 "GET /session/90dba757ce8ab623814afb1a9371f2dc/element/0.19332520068997106-3/selected HTTP/1.1" 200 73
+01/23/2019 05:37:20 PM Finished Request
+01/23/2019 05:37:20 PM waiting for element //input[@id='localPickup']
+01/23/2019 05:37:20 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 05:37:20 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "//input[@id='localPickup']", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:20 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 103
+01/23/2019 05:37:20 PM Finished Request
+01/23/2019 05:37:20 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element/0.19332520068997106-3/click {"id": "0.19332520068997106-3", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:20 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element/0.19332520068997106-3/click HTTP/1.1" 200 72
+01/23/2019 05:37:20 PM Finished Request
+01/23/2019 05:37:21 PM waiting for element //a[@id='anLocId']
+01/23/2019 05:37:21 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 05:37:21 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "//a[@id='anLocId']", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:21 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 103
+01/23/2019 05:37:21 PM Finished Request
+01/23/2019 05:37:21 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element/0.19332520068997106-4/click {"id": "0.19332520068997106-4", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:21 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element/0.19332520068997106-4/click HTTP/1.1" 200 72
+01/23/2019 05:37:21 PM Finished Request
+01/23/2019 05:37:21 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "//input[@id='itemPostalCode']", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:21 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 103
+01/23/2019 05:37:21 PM Finished Request
+01/23/2019 05:37:21 PM GET http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element/0.19332520068997106-5/attribute/value {"name": "value", "id": "0.19332520068997106-5", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:21 PM http://127.0.0.1:61532 "GET /session/90dba757ce8ab623814afb1a9371f2dc/element/0.19332520068997106-5/attribute/value HTTP/1.1" 200 75
+01/23/2019 05:37:21 PM Finished Request
+01/23/2019 05:37:25 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/frame {"id": null, "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:25 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/frame HTTP/1.1" 200 72
+01/23/2019 05:37:25 PM Finished Request
+01/23/2019 05:37:25 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/frame {"id": "v4-26txtEdit_st", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:26 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/frame HTTP/1.1" 200 72
+01/23/2019 05:37:26 PM Finished Request
+01/23/2019 05:37:26 PM waiting for element //div[@id='descDiv']//a[@title='HTML']
+01/23/2019 05:37:26 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 05:37:26 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "//div[@id='descDiv']//a[@title='HTML']", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:26 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 366
+01/23/2019 05:37:26 PM Finished Request
+01/23/2019 05:37:26 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='descDiv']//a[@title='HTML']"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+01/23/2019 05:37:26 PM 'NoneType' object has no attribute 'click'
+01/23/2019 05:37:27 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/execute {"script": "document.body.innerHTML = 'TestHTML'", "args": [], "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:27 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/execute HTTP/1.1" 200 72
+01/23/2019 05:37:27 PM Finished Request
+01/23/2019 05:37:27 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/frame {"id": null, "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:27 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/frame HTTP/1.1" 200 72
+01/23/2019 05:37:27 PM Finished Request
+01/23/2019 05:37:29 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/frame {"id": "uploader_iframe", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:29 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/frame HTTP/1.1" 200 72
+01/23/2019 05:37:29 PM Finished Request
+01/23/2019 05:37:31 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "//a[contains(@style,'block')]//input[@class='upl-fileInp']", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:31 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 102
+01/23/2019 05:37:31 PM Finished Request
+01/23/2019 05:37:31 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element/0.8993218994265584-1/clear {"id": "0.8993218994265584-1", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:31 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element/0.8993218994265584-1/clear HTTP/1.1" 200 72
+01/23/2019 05:37:31 PM Finished Request
+01/23/2019 05:37:31 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "//a[contains(@style,'block')]//input[@class='upl-fileInp']", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:31 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 102
+01/23/2019 05:37:31 PM Finished Request
+01/23/2019 05:37:31 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element/0.8993218994265584-1/value {"text": "C:\\Users\\sujha\\PycharmProjects\\eBayAuto\\src\\images\\TestImage1.png", "value": ["C", ":", "\\", "U", "s", "e", "r", "s", "\\", "s", "u", "j", "h", "a", "\\", "P", "y", "c", "h", "a", "r", "m", "P", "r", "o", "j", "e", "c", "t", "s", "\\", "e", "B", "a", "y", "A", "u", "t", "o", "\\", "s", "r", "c", "\\", "i", "m", "a", "g", "e", "s", "\\", "T", "e", "s", "t", "I", "m", "a", "g", "e", "1", ".", "p", "n", "g"], "id": "0.8993218994265584-1", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:31 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element/0.8993218994265584-1/value HTTP/1.1" 200 72
+01/23/2019 05:37:31 PM Finished Request
+01/23/2019 05:37:37 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "//a[contains(@style,'block')]//input[@class='upl-fileInp']", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:37 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 102
+01/23/2019 05:37:37 PM Finished Request
+01/23/2019 05:37:37 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element/0.8993218994265584-2/clear {"id": "0.8993218994265584-2", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:37 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element/0.8993218994265584-2/clear HTTP/1.1" 200 72
+01/23/2019 05:37:37 PM Finished Request
+01/23/2019 05:37:37 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "//a[contains(@style,'block')]//input[@class='upl-fileInp']", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:37 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 102
+01/23/2019 05:37:37 PM Finished Request
+01/23/2019 05:37:37 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element/0.8993218994265584-2/value {"text": "C:\\Users\\sujha\\PycharmProjects\\eBayAuto\\src\\images\\TestImage2.png", "value": ["C", ":", "\\", "U", "s", "e", "r", "s", "\\", "s", "u", "j", "h", "a", "\\", "P", "y", "c", "h", "a", "r", "m", "P", "r", "o", "j", "e", "c", "t", "s", "\\", "e", "B", "a", "y", "A", "u", "t", "o", "\\", "s", "r", "c", "\\", "i", "m", "a", "g", "e", "s", "\\", "T", "e", "s", "t", "I", "m", "a", "g", "e", "2", ".", "p", "n", "g"], "id": "0.8993218994265584-2", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:37 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element/0.8993218994265584-2/value HTTP/1.1" 200 72
+01/23/2019 05:37:37 PM Finished Request
+01/23/2019 05:37:43 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "//a[contains(@style,'block')]//input[@class='upl-fileInp']", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:43 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 102
+01/23/2019 05:37:43 PM Finished Request
+01/23/2019 05:37:43 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element/0.8993218994265584-3/clear {"id": "0.8993218994265584-3", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:43 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element/0.8993218994265584-3/clear HTTP/1.1" 200 72
+01/23/2019 05:37:43 PM Finished Request
+01/23/2019 05:37:43 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element {"using": "xpath", "value": "//a[contains(@style,'block')]//input[@class='upl-fileInp']", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:43 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element HTTP/1.1" 200 102
+01/23/2019 05:37:43 PM Finished Request
+01/23/2019 05:37:43 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/element/0.8993218994265584-3/value {"text": "C:\\Users\\sujha\\PycharmProjects\\eBayAuto\\src\\images\\TestImage3.png", "value": ["C", ":", "\\", "U", "s", "e", "r", "s", "\\", "s", "u", "j", "h", "a", "\\", "P", "y", "c", "h", "a", "r", "m", "P", "r", "o", "j", "e", "c", "t", "s", "\\", "e", "B", "a", "y", "A", "u", "t", "o", "\\", "s", "r", "c", "\\", "i", "m", "a", "g", "e", "s", "\\", "T", "e", "s", "t", "I", "m", "a", "g", "e", "3", ".", "p", "n", "g"], "id": "0.8993218994265584-3", "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:43 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/element/0.8993218994265584-3/value HTTP/1.1" 200 72
+01/23/2019 05:37:43 PM Finished Request
+01/23/2019 05:37:49 PM POST http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/frame {"id": null, "sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:49 PM http://127.0.0.1:61532 "POST /session/90dba757ce8ab623814afb1a9371f2dc/frame HTTP/1.1" 200 72
+01/23/2019 05:37:49 PM Finished Request
+01/23/2019 05:37:49 PM DELETE http://127.0.0.1:61532/session/90dba757ce8ab623814afb1a9371f2dc/window {"sessionId": "90dba757ce8ab623814afb1a9371f2dc"}
+01/23/2019 05:37:51 PM http://127.0.0.1:61532 "DELETE /session/90dba757ce8ab623814afb1a9371f2dc/window HTTP/1.1" 200 72
+01/23/2019 05:37:51 PM Finished Request
+01/23/2019 05:37:54 PM POST http://127.0.0.1:61740/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized"]}}}
+01/23/2019 05:37:54 PM Starting new HTTP connection (1): 127.0.0.1:61740
+01/23/2019 05:37:56 PM http://127.0.0.1:61740 "POST /session HTTP/1.1" 200 829
+01/23/2019 05:37:56 PM Finished Request
+01/23/2019 05:37:56 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/url {"url": "https://www.gmx.net/", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:38:43 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/url HTTP/1.1" 200 72
+01/23/2019 05:38:43 PM Finished Request
+01/23/2019 05:38:43 PM waiting for element //*[@id='freemailLoginUsername']
+01/23/2019 05:38:43 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 05:38:43 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element {"using": "xpath", "value": "//*[@id='freemailLoginUsername']", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:38:43 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element HTTP/1.1" 200 102
+01/23/2019 05:38:43 PM Finished Request
+01/23/2019 05:38:43 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/execute {"script": "return arguments[0].scrollIntoView();", "args": [{"ELEMENT": "0.8147514346806872-1", "element-6066-11e4-a52e-4f735466cecf": "0.8147514346806872-1"}], "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:38:43 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/execute HTTP/1.1" 200 72
+01/23/2019 05:38:43 PM Finished Request
+01/23/2019 05:38:43 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element {"using": "xpath", "value": "//*[@id='freemailLoginUsername']", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:38:43 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element HTTP/1.1" 200 102
+01/23/2019 05:38:43 PM Finished Request
+01/23/2019 05:38:43 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element/0.8147514346806872-1/clear {"id": "0.8147514346806872-1", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:38:43 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element/0.8147514346806872-1/clear HTTP/1.1" 200 72
+01/23/2019 05:38:43 PM Finished Request
+01/23/2019 05:38:43 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element {"using": "xpath", "value": "//*[@id='freemailLoginUsername']", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:38:43 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element HTTP/1.1" 200 102
+01/23/2019 05:38:43 PM Finished Request
+01/23/2019 05:38:43 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element/0.8147514346806872-1/value {"text": "christian.ganslmayer78@gmx.de", "value": ["c", "h", "r", "i", "s", "t", "i", "a", "n", ".", "g", "a", "n", "s", "l", "m", "a", "y", "e", "r", "7", "8", "@", "g", "m", "x", ".", "d", "e"], "id": "0.8147514346806872-1", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:38:44 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element/0.8147514346806872-1/value HTTP/1.1" 200 72
+01/23/2019 05:38:44 PM Finished Request
+01/23/2019 05:38:44 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element {"using": "xpath", "value": "//*[@id='freemailLoginPassword']", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:38:44 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element HTTP/1.1" 200 102
+01/23/2019 05:38:44 PM Finished Request
+01/23/2019 05:38:44 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element/0.8147514346806872-2/clear {"id": "0.8147514346806872-2", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:38:44 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element/0.8147514346806872-2/clear HTTP/1.1" 200 72
+01/23/2019 05:38:44 PM Finished Request
+01/23/2019 05:38:44 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element {"using": "xpath", "value": "//*[@id='freemailLoginPassword']", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:38:44 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element HTTP/1.1" 200 102
+01/23/2019 05:38:44 PM Finished Request
+01/23/2019 05:38:44 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element/0.8147514346806872-2/value {"text": "a1KSDFu7", "value": ["a", "1", "K", "S", "D", "F", "u", "7"], "id": "0.8147514346806872-2", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:38:44 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element/0.8147514346806872-2/value HTTP/1.1" 200 72
+01/23/2019 05:38:44 PM Finished Request
+01/23/2019 05:38:44 PM waiting for element //*[@id='freemailLoginPassword']/ancestor::fieldset//input[@value='Login']
+01/23/2019 05:38:44 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 05:38:44 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element {"using": "xpath", "value": "//*[@id='freemailLoginPassword']/ancestor::fieldset//input[@value='Login']", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:38:44 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element HTTP/1.1" 200 102
+01/23/2019 05:38:44 PM Finished Request
+01/23/2019 05:38:44 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element/0.8147514346806872-3/click {"id": "0.8147514346806872-3", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:38:50 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element/0.8147514346806872-3/click HTTP/1.1" 200 72
+01/23/2019 05:38:50 PM Finished Request
+01/23/2019 05:38:58 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/frame {"id": "thirdPartyFrame_home", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:38:58 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/frame HTTP/1.1" 200 72
+01/23/2019 05:38:58 PM Finished Request
+01/23/2019 05:38:58 PM waiting for element //a[@title='Einstellungen']
+01/23/2019 05:38:58 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 05:38:58 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element {"using": "xpath", "value": "//a[@title='Einstellungen']", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:38:58 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element HTTP/1.1" 200 102
+01/23/2019 05:38:58 PM Finished Request
+01/23/2019 05:38:58 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element/0.5281372362857473-1/click {"id": "0.5281372362857473-1", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:38:58 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element/0.5281372362857473-1/click HTTP/1.1" 200 72
+01/23/2019 05:38:58 PM Finished Request
+01/23/2019 05:38:58 PM waiting for element //*[text()='Zu den Einstellungen']
+01/23/2019 05:38:58 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 05:38:58 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element {"using": "xpath", "value": "//*[text()='Zu den Einstellungen']", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:38:58 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element HTTP/1.1" 200 102
+01/23/2019 05:38:58 PM Finished Request
+01/23/2019 05:38:58 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element/0.5281372362857473-2/click {"id": "0.5281372362857473-2", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:38:58 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element/0.5281372362857473-2/click HTTP/1.1" 200 72
+01/23/2019 05:38:58 PM Finished Request
+01/23/2019 05:39:01 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/frame {"id": null, "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:39:01 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/frame HTTP/1.1" 200 72
+01/23/2019 05:39:01 PM Finished Request
+01/23/2019 05:39:01 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/frame {"id": "thirdPartyFrame_mail", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:39:01 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/frame HTTP/1.1" 200 72
+01/23/2019 05:39:01 PM Finished Request
+01/23/2019 05:39:01 PM waiting for element //*[text()='Abwesenheitsnotiz']
+01/23/2019 05:39:01 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 05:39:01 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element {"using": "xpath", "value": "//*[text()='Abwesenheitsnotiz']", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:39:02 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element HTTP/1.1" 200 102
+01/23/2019 05:39:02 PM Finished Request
+01/23/2019 05:39:02 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element/0.9328265883606381-1/click {"id": "0.9328265883606381-1", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:39:02 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element/0.9328265883606381-1/click HTTP/1.1" 200 72
+01/23/2019 05:39:02 PM Finished Request
+01/23/2019 05:39:06 PM waiting for element //*[text()='immer eingeschaltet']/preceding-sibling::input
+01/23/2019 05:39:06 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 05:39:06 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element {"using": "xpath", "value": "//*[text()='immer eingeschaltet']/preceding-sibling::input", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:39:06 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element HTTP/1.1" 200 102
+01/23/2019 05:39:06 PM Finished Request
+01/23/2019 05:39:06 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element/0.5804505003210363-1/click {"id": "0.5804505003210363-1", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:39:06 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element/0.5804505003210363-1/click HTTP/1.1" 200 72
+01/23/2019 05:39:06 PM Finished Request
+01/23/2019 05:39:06 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element {"using": "xpath", "value": "//*[@name='textAreaFieldSet:textAreaFormItem:textAreaFormItem_body:textArea:textarea']", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:39:06 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element HTTP/1.1" 200 102
+01/23/2019 05:39:06 PM Finished Request
+01/23/2019 05:39:06 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element/0.5804505003210363-2/clear {"id": "0.5804505003210363-2", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:39:06 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element/0.5804505003210363-2/clear HTTP/1.1" 200 72
+01/23/2019 05:39:06 PM Finished Request
+01/23/2019 05:39:06 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element {"using": "xpath", "value": "//*[@name='textAreaFieldSet:textAreaFormItem:textAreaFormItem_body:textArea:textarea']", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:39:06 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element HTTP/1.1" 200 102
+01/23/2019 05:39:06 PM Finished Request
+01/23/2019 05:39:06 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element/0.5804505003210363-2/value {"text": "TEXT TO BE ENTERED", "value": ["T", "E", "X", "T", " ", "T", "O", " ", "B", "E", " ", "E", "N", "T", "E", "R", "E", "D"], "id": "0.5804505003210363-2", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:39:06 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element/0.5804505003210363-2/value HTTP/1.1" 200 72
+01/23/2019 05:39:06 PM Finished Request
+01/23/2019 05:39:06 PM waiting for element //*[@name='buttonContainer:container:buttonContainer_body:submitButton']
+01/23/2019 05:39:06 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 05:39:06 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element {"using": "xpath", "value": "//*[@name='buttonContainer:container:buttonContainer_body:submitButton']", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:39:06 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element HTTP/1.1" 200 102
+01/23/2019 05:39:06 PM Finished Request
+01/23/2019 05:39:06 PM POST http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/element/0.5804505003210363-3/click {"id": "0.5804505003210363-3", "sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:39:06 PM http://127.0.0.1:61740 "POST /session/fbbf7a88133feca8811d453991beba33/element/0.5804505003210363-3/click HTTP/1.1" 200 628
+01/23/2019 05:39:06 PM Finished Request
+01/23/2019 05:39:06 PM Message: unknown error: Element <button name="buttonContainer:container:buttonContainer_body:submitButton" id="id34" type="button" class="m-button button-primary button-size-normal js-component" data-component="Button">...</button> is not clickable at point (906, 460). Other element would receive the click: <div id="blocker" style="display: block;"></div>
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+01/23/2019 05:39:10 PM DELETE http://127.0.0.1:61740/session/fbbf7a88133feca8811d453991beba33/window {"sessionId": "fbbf7a88133feca8811d453991beba33"}
+01/23/2019 05:39:10 PM http://127.0.0.1:61740 "DELETE /session/fbbf7a88133feca8811d453991beba33/window HTTP/1.1" 200 72
+01/23/2019 05:39:10 PM Finished Request

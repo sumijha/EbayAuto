@@ -1,0 +1,279 @@
+01/23/2019 02:30:35 AM POST http://127.0.0.1:54550/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized"]}}}
+01/23/2019 02:30:35 AM Starting new HTTP connection (1): 127.0.0.1:54550
+01/23/2019 02:30:36 AM http://127.0.0.1:54550 "POST /session HTTP/1.1" 200 829
+01/23/2019 02:30:36 AM Finished Request
+01/23/2019 02:30:36 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/url {"url": "https://www.ebay.de/myb/Summary", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:30:44 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/url HTTP/1.1" 200 72
+01/23/2019 02:30:44 AM Finished Request
+01/23/2019 02:30:44 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//input[@id='userid']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:30:44 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 102
+01/23/2019 02:30:44 AM Finished Request
+01/23/2019 02:30:44 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.4926167161809065-1/value {"text": "troedelbucht32", "value": ["t", "r", "o", "e", "d", "e", "l", "b", "u", "c", "h", "t", "3", "2"], "id": "0.4926167161809065-1", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:30:44 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element/0.4926167161809065-1/value HTTP/1.1" 200 72
+01/23/2019 02:30:44 AM Finished Request
+01/23/2019 02:30:44 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//input[@id='pass']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:30:44 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 102
+01/23/2019 02:30:44 AM Finished Request
+01/23/2019 02:30:44 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.4926167161809065-2/value {"text": "9R7PKDRj", "value": ["9", "R", "7", "P", "K", "D", "R", "j"], "id": "0.4926167161809065-2", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:30:44 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element/0.4926167161809065-2/value HTTP/1.1" 200 72
+01/23/2019 02:30:44 AM Finished Request
+01/23/2019 02:30:44 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//button[@id='sgnBt']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:30:44 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 102
+01/23/2019 02:30:44 AM Finished Request
+01/23/2019 02:30:44 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.4926167161809065-3/click {"id": "0.4926167161809065-3", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:30:50 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element/0.4926167161809065-3/click HTTP/1.1" 200 72
+01/23/2019 02:30:50 AM Finished Request
+01/23/2019 02:30:54 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/url {"url": "https://bulksell.ebay.de/ws/eBayISAPI.dll?SingleList&sellingMode=AddItem", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:02 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/url HTTP/1.1" 200 72
+01/23/2019 02:31:02 AM Finished Request
+01/23/2019 02:31:02 AM Successfully launched the Home Page
+01/23/2019 02:31:07 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/frame {"id": "findprod_iframe", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:07 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/frame HTTP/1.1" 200 72
+01/23/2019 02:31:07 AM Finished Request
+01/23/2019 02:31:07 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//input[@class='find-product']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:07 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 102
+01/23/2019 02:31:07 AM Finished Request
+01/23/2019 02:31:07 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.3669264546328661-1/value {"text": "Grundkochbuch von Dr.Oetker", "value": ["G", "r", "u", "n", "d", "k", "o", "c", "h", "b", "u", "c", "h", " ", "v", "o", "n", " ", "D", "r", ".", "O", "e", "t", "k", "e", "r"], "id": "0.3669264546328661-1", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:07 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element/0.3669264546328661-1/value HTTP/1.1" 200 72
+01/23/2019 02:31:07 AM Finished Request
+01/23/2019 02:31:07 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//button[contains(@id,'find-product')]", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:07 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 102
+01/23/2019 02:31:07 AM Finished Request
+01/23/2019 02:31:07 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.3669264546328661-2/click {"id": "0.3669264546328661-2", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:08 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element/0.3669264546328661-2/click HTTP/1.1" 200 72
+01/23/2019 02:31:08 AM Finished Request
+01/23/2019 02:31:12 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/frame {"id": null, "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:12 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/frame HTTP/1.1" 200 72
+01/23/2019 02:31:12 AM Finished Request
+01/23/2019 02:31:12 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/frame {"id": "findprod_iframe", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:12 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/frame HTTP/1.1" 200 72
+01/23/2019 02:31:12 AM Finished Request
+01/23/2019 02:31:12 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "(//div[@class='actions']/button[@class='btn btn--primary'])[1]", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:12 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 102
+01/23/2019 02:31:12 AM Finished Request
+01/23/2019 02:31:12 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.3669264546328661-3/click {"id": "0.3669264546328661-3", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:12 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element/0.3669264546328661-3/click HTTP/1.1" 200 72
+01/23/2019 02:31:12 AM Finished Request
+01/23/2019 02:31:16 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "(//div[@class='dialog__footer']/button[@class='btn btn--primary'])[1]", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:16 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 102
+01/23/2019 02:31:16 AM Finished Request
+01/23/2019 02:31:16 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.3669264546328661-4/click {"id": "0.3669264546328661-4", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:16 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element/0.3669264546328661-4/click HTTP/1.1" 200 72
+01/23/2019 02:31:16 AM Finished Request
+01/23/2019 02:31:22 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//input[@id='pmCashOnPickup']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:23 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 103
+01/23/2019 02:31:23 AM Finished Request
+01/23/2019 02:31:23 AM GET http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.16734730544117848-1/selected {"id": "0.16734730544117848-1", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:23 AM http://127.0.0.1:54550 "GET /session/5760e6dfef8e80aad65f828a67e80f55/element/0.16734730544117848-1/selected HTTP/1.1" 200 73
+01/23/2019 02:31:23 AM Finished Request
+01/23/2019 02:31:23 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//input[@id='pmCashOnPickup']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:23 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 103
+01/23/2019 02:31:23 AM Finished Request
+01/23/2019 02:31:23 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.16734730544117848-1/click {"id": "0.16734730544117848-1", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:23 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element/0.16734730544117848-1/click HTTP/1.1" 200 72
+01/23/2019 02:31:23 AM Finished Request
+01/23/2019 02:31:23 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//input[@id='pmSeeDesc']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:23 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 103
+01/23/2019 02:31:23 AM Finished Request
+01/23/2019 02:31:23 AM GET http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.16734730544117848-2/selected {"id": "0.16734730544117848-2", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:23 AM http://127.0.0.1:54550 "GET /session/5760e6dfef8e80aad65f828a67e80f55/element/0.16734730544117848-2/selected HTTP/1.1" 200 73
+01/23/2019 02:31:23 AM Finished Request
+01/23/2019 02:31:23 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//input[@id='pmSeeDesc']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:23 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 103
+01/23/2019 02:31:23 AM Finished Request
+01/23/2019 02:31:23 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.16734730544117848-2/click {"id": "0.16734730544117848-2", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:23 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element/0.16734730544117848-2/click HTTP/1.1" 200 72
+01/23/2019 02:31:23 AM Finished Request
+01/23/2019 02:31:23 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//input[@id='localPickup']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:23 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 103
+01/23/2019 02:31:23 AM Finished Request
+01/23/2019 02:31:23 AM GET http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.16734730544117848-3/selected {"id": "0.16734730544117848-3", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:23 AM http://127.0.0.1:54550 "GET /session/5760e6dfef8e80aad65f828a67e80f55/element/0.16734730544117848-3/selected HTTP/1.1" 200 73
+01/23/2019 02:31:23 AM Finished Request
+01/23/2019 02:31:23 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//input[@id='localPickup']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:23 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 103
+01/23/2019 02:31:23 AM Finished Request
+01/23/2019 02:31:23 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.16734730544117848-3/click {"id": "0.16734730544117848-3", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:23 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element/0.16734730544117848-3/click HTTP/1.1" 200 72
+01/23/2019 02:31:23 AM Finished Request
+01/23/2019 02:31:24 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//a[@id='anLocId']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:24 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 103
+01/23/2019 02:31:24 AM Finished Request
+01/23/2019 02:31:24 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.16734730544117848-4/click {"id": "0.16734730544117848-4", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:24 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element/0.16734730544117848-4/click HTTP/1.1" 200 72
+01/23/2019 02:31:24 AM Finished Request
+01/23/2019 02:31:24 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//input[@id='itemPostalCode']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:25 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 103
+01/23/2019 02:31:25 AM Finished Request
+01/23/2019 02:31:25 AM GET http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.16734730544117848-5/attribute/value {"name": "value", "id": "0.16734730544117848-5", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:25 AM http://127.0.0.1:54550 "GET /session/5760e6dfef8e80aad65f828a67e80f55/element/0.16734730544117848-5/attribute/value HTTP/1.1" 200 75
+01/23/2019 02:31:25 AM Finished Request
+01/23/2019 02:31:29 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/frame {"id": null, "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:29 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/frame HTTP/1.1" 200 72
+01/23/2019 02:31:29 AM Finished Request
+01/23/2019 02:31:29 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//a[contains(@style,'block')]//input[@class='upl-fileInp']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:29 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 386
+01/23/2019 02:31:29 AM Finished Request
+01/23/2019 02:31:29 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@style,'block')]//input[@class='upl-fileInp']"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+01/23/2019 02:31:29 AM 'NoneType' object has no attribute 'send_keys'
+01/23/2019 02:31:29 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//a[contains(@style,'block')]//input[@class='upl-fileInp']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:29 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 386
+01/23/2019 02:31:29 AM Finished Request
+01/23/2019 02:31:29 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@style,'block')]//input[@class='upl-fileInp']"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+01/23/2019 02:31:29 AM 'NoneType' object has no attribute 'send_keys'
+01/23/2019 02:31:36 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/frame {"id": "v4-26txtEdit_st", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:36 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/frame HTTP/1.1" 200 72
+01/23/2019 02:31:36 AM Finished Request
+01/23/2019 02:31:38 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/execute {"script": "document.body.innerHTML = 'TestHTML'", "args": [], "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:38 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/execute HTTP/1.1" 200 72
+01/23/2019 02:31:38 AM Finished Request
+01/23/2019 02:31:54 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/frame {"id": null, "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:54 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/frame HTTP/1.1" 200 72
+01/23/2019 02:31:54 AM Finished Request
+01/23/2019 02:31:54 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//a[contains(@style,'block')]//input[@class='upl-fileInp']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:54 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 386
+01/23/2019 02:31:54 AM Finished Request
+01/23/2019 02:31:54 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@style,'block')]//input[@class='upl-fileInp']"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+01/23/2019 02:31:54 AM 'NoneType' object has no attribute 'send_keys'
+01/23/2019 02:31:54 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//a[contains(@style,'block')]//input[@class='upl-fileInp']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:54 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 386
+01/23/2019 02:31:54 AM Finished Request
+01/23/2019 02:31:54 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@style,'block')]//input[@class='upl-fileInp']"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+01/23/2019 02:31:54 AM 'NoneType' object has no attribute 'send_keys'
+01/23/2019 02:31:58 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//a[contains(@style,'block')]//input[@class='upl-fileInp']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:58 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 386
+01/23/2019 02:31:58 AM Finished Request
+01/23/2019 02:31:58 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@style,'block')]//input[@class='upl-fileInp']"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+01/23/2019 02:31:58 AM 'NoneType' object has no attribute 'send_keys'
+01/23/2019 02:31:58 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//a[contains(@style,'block')]//input[@class='upl-fileInp']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:31:58 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 386
+01/23/2019 02:31:58 AM Finished Request
+01/23/2019 02:31:58 AM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@style,'block')]//input[@class='upl-fileInp']"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+01/23/2019 02:31:58 AM 'NoneType' object has no attribute 'send_keys'
+01/23/2019 02:32:07 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/frame {"id": "uploader_iframe", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:32:07 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/frame HTTP/1.1" 200 72
+01/23/2019 02:32:07 AM Finished Request
+01/23/2019 02:32:07 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//a[contains(@style,'block')]//input[@class='upl-fileInp']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:32:07 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 102
+01/23/2019 02:32:07 AM Finished Request
+01/23/2019 02:32:07 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.5576041892531873-1/value {"text": "C:\\Users\\sujha\\PycharmProjects\\eBayAuto\\src\\imagesTestImage1.png", "value": ["C", ":", "\\", "U", "s", "e", "r", "s", "\\", "s", "u", "j", "h", "a", "\\", "P", "y", "c", "h", "a", "r", "m", "P", "r", "o", "j", "e", "c", "t", "s", "\\", "e", "B", "a", "y", "A", "u", "t", "o", "\\", "s", "r", "c", "\\", "i", "m", "a", "g", "e", "s", "T", "e", "s", "t", "I", "m", "a", "g", "e", "1", ".", "p", "n", "g"], "id": "0.5576041892531873-1", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:32:07 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element/0.5576041892531873-1/value HTTP/1.1" 200 351
+01/23/2019 02:32:07 AM Finished Request
+01/23/2019 02:32:07 AM Message: invalid argument: File not found : C:\Users\sujha\PycharmProjects\eBayAuto\src\imagesTestImage1.png
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+01/23/2019 02:32:07 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//a[contains(@style,'block')]//input[@class='upl-fileInp']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:32:07 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 102
+01/23/2019 02:32:07 AM Finished Request
+01/23/2019 02:32:07 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.5576041892531873-1/value {"text": "C:\\Users\\sujha\\PycharmProjects\\eBayAuto\\src\\imagesTestImage1.png", "value": ["C", ":", "\\", "U", "s", "e", "r", "s", "\\", "s", "u", "j", "h", "a", "\\", "P", "y", "c", "h", "a", "r", "m", "P", "r", "o", "j", "e", "c", "t", "s", "\\", "e", "B", "a", "y", "A", "u", "t", "o", "\\", "s", "r", "c", "\\", "i", "m", "a", "g", "e", "s", "T", "e", "s", "t", "I", "m", "a", "g", "e", "1", ".", "p", "n", "g"], "id": "0.5576041892531873-1", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:32:07 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element/0.5576041892531873-1/value HTTP/1.1" 200 351
+01/23/2019 02:32:07 AM Finished Request
+01/23/2019 02:32:07 AM Message: invalid argument: File not found : C:\Users\sujha\PycharmProjects\eBayAuto\src\imagesTestImage1.png
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+01/23/2019 02:32:09 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//a[contains(@style,'block')]//input[@class='upl-fileInp']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:32:09 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 102
+01/23/2019 02:32:09 AM Finished Request
+01/23/2019 02:32:09 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.5576041892531873-1/value {"text": "C:\\Users\\sujha\\PycharmProjects\\eBayAuto\\src\\imagesTestImage1.png", "value": ["C", ":", "\\", "U", "s", "e", "r", "s", "\\", "s", "u", "j", "h", "a", "\\", "P", "y", "c", "h", "a", "r", "m", "P", "r", "o", "j", "e", "c", "t", "s", "\\", "e", "B", "a", "y", "A", "u", "t", "o", "\\", "s", "r", "c", "\\", "i", "m", "a", "g", "e", "s", "T", "e", "s", "t", "I", "m", "a", "g", "e", "1", ".", "p", "n", "g"], "id": "0.5576041892531873-1", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:32:09 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element/0.5576041892531873-1/value HTTP/1.1" 200 351
+01/23/2019 02:32:09 AM Finished Request
+01/23/2019 02:32:09 AM Message: invalid argument: File not found : C:\Users\sujha\PycharmProjects\eBayAuto\src\imagesTestImage1.png
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+01/23/2019 02:32:09 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//a[contains(@style,'block')]//input[@class='upl-fileInp']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:32:09 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 102
+01/23/2019 02:32:09 AM Finished Request
+01/23/2019 02:32:09 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.5576041892531873-1/value {"text": "C:\\Users\\sujha\\PycharmProjects\\eBayAuto\\src\\imagesTestImage1.png", "value": ["C", ":", "\\", "U", "s", "e", "r", "s", "\\", "s", "u", "j", "h", "a", "\\", "P", "y", "c", "h", "a", "r", "m", "P", "r", "o", "j", "e", "c", "t", "s", "\\", "e", "B", "a", "y", "A", "u", "t", "o", "\\", "s", "r", "c", "\\", "i", "m", "a", "g", "e", "s", "T", "e", "s", "t", "I", "m", "a", "g", "e", "1", ".", "p", "n", "g"], "id": "0.5576041892531873-1", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:32:09 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element/0.5576041892531873-1/value HTTP/1.1" 200 351
+01/23/2019 02:32:09 AM Finished Request
+01/23/2019 02:32:09 AM Message: invalid argument: File not found : C:\Users\sujha\PycharmProjects\eBayAuto\src\imagesTestImage1.png
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+01/23/2019 02:32:11 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//a[contains(@style,'block')]//input[@class='upl-fileInp']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:32:11 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 102
+01/23/2019 02:32:11 AM Finished Request
+01/23/2019 02:32:11 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.5576041892531873-1/value {"text": "C:\\Users\\sujha\\PycharmProjects\\eBayAuto\\src\\imagesTestImage1.png", "value": ["C", ":", "\\", "U", "s", "e", "r", "s", "\\", "s", "u", "j", "h", "a", "\\", "P", "y", "c", "h", "a", "r", "m", "P", "r", "o", "j", "e", "c", "t", "s", "\\", "e", "B", "a", "y", "A", "u", "t", "o", "\\", "s", "r", "c", "\\", "i", "m", "a", "g", "e", "s", "T", "e", "s", "t", "I", "m", "a", "g", "e", "1", ".", "p", "n", "g"], "id": "0.5576041892531873-1", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:32:11 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element/0.5576041892531873-1/value HTTP/1.1" 200 351
+01/23/2019 02:32:11 AM Finished Request
+01/23/2019 02:32:11 AM Message: invalid argument: File not found : C:\Users\sujha\PycharmProjects\eBayAuto\src\imagesTestImage1.png
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+01/23/2019 02:32:11 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//a[contains(@style,'block')]//input[@class='upl-fileInp']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:32:11 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 102
+01/23/2019 02:32:11 AM Finished Request
+01/23/2019 02:32:11 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.5576041892531873-1/value {"text": "C:\\Users\\sujha\\PycharmProjects\\eBayAuto\\src\\imagesTestImage1.png", "value": ["C", ":", "\\", "U", "s", "e", "r", "s", "\\", "s", "u", "j", "h", "a", "\\", "P", "y", "c", "h", "a", "r", "m", "P", "r", "o", "j", "e", "c", "t", "s", "\\", "e", "B", "a", "y", "A", "u", "t", "o", "\\", "s", "r", "c", "\\", "i", "m", "a", "g", "e", "s", "T", "e", "s", "t", "I", "m", "a", "g", "e", "1", ".", "p", "n", "g"], "id": "0.5576041892531873-1", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:32:11 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element/0.5576041892531873-1/value HTTP/1.1" 200 351
+01/23/2019 02:32:11 AM Finished Request
+01/23/2019 02:32:11 AM Message: invalid argument: File not found : C:\Users\sujha\PycharmProjects\eBayAuto\src\imagesTestImage1.png
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+01/23/2019 02:32:12 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//a[contains(@style,'block')]//input[@class='upl-fileInp']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:32:12 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 102
+01/23/2019 02:32:12 AM Finished Request
+01/23/2019 02:32:12 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.5576041892531873-1/value {"text": "C:\\Users\\sujha\\PycharmProjects\\eBayAuto\\src\\images\\TestImage1.png", "value": ["C", ":", "\\", "U", "s", "e", "r", "s", "\\", "s", "u", "j", "h", "a", "\\", "P", "y", "c", "h", "a", "r", "m", "P", "r", "o", "j", "e", "c", "t", "s", "\\", "e", "B", "a", "y", "A", "u", "t", "o", "\\", "s", "r", "c", "\\", "i", "m", "a", "g", "e", "s", "\\", "T", "e", "s", "t", "I", "m", "a", "g", "e", "1", ".", "p", "n", "g"], "id": "0.5576041892531873-1", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:32:12 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element/0.5576041892531873-1/value HTTP/1.1" 200 72
+01/23/2019 02:32:12 AM Finished Request
+01/23/2019 02:32:12 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//a[contains(@style,'block')]//input[@class='upl-fileInp']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:32:13 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 102
+01/23/2019 02:32:13 AM Finished Request
+01/23/2019 02:32:13 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.5576041892531873-2/value {"text": "C:\\Users\\sujha\\PycharmProjects\\eBayAuto\\src\\imagesTestImage1.png", "value": ["C", ":", "\\", "U", "s", "e", "r", "s", "\\", "s", "u", "j", "h", "a", "\\", "P", "y", "c", "h", "a", "r", "m", "P", "r", "o", "j", "e", "c", "t", "s", "\\", "e", "B", "a", "y", "A", "u", "t", "o", "\\", "s", "r", "c", "\\", "i", "m", "a", "g", "e", "s", "T", "e", "s", "t", "I", "m", "a", "g", "e", "1", ".", "p", "n", "g"], "id": "0.5576041892531873-2", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:32:13 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element/0.5576041892531873-2/value HTTP/1.1" 200 351
+01/23/2019 02:32:13 AM Finished Request
+01/23/2019 02:32:13 AM Message: invalid argument: File not found : C:\Users\sujha\PycharmProjects\eBayAuto\src\imagesTestImage1.png
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+01/23/2019 02:32:13 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//a[contains(@style,'block')]//input[@class='upl-fileInp']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:32:13 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 102
+01/23/2019 02:32:13 AM Finished Request
+01/23/2019 02:32:13 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.5576041892531873-2/value {"text": "C:\\Users\\sujha\\PycharmProjects\\eBayAuto\\src\\imagesTestImage1.png", "value": ["C", ":", "\\", "U", "s", "e", "r", "s", "\\", "s", "u", "j", "h", "a", "\\", "P", "y", "c", "h", "a", "r", "m", "P", "r", "o", "j", "e", "c", "t", "s", "\\", "e", "B", "a", "y", "A", "u", "t", "o", "\\", "s", "r", "c", "\\", "i", "m", "a", "g", "e", "s", "T", "e", "s", "t", "I", "m", "a", "g", "e", "1", ".", "p", "n", "g"], "id": "0.5576041892531873-2", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:32:13 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element/0.5576041892531873-2/value HTTP/1.1" 200 351
+01/23/2019 02:32:13 AM Finished Request
+01/23/2019 02:32:13 AM Message: invalid argument: File not found : C:\Users\sujha\PycharmProjects\eBayAuto\src\imagesTestImage1.png
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+01/23/2019 02:32:18 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//a[contains(@style,'block')]//input[@class='upl-fileInp']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:32:18 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 102
+01/23/2019 02:32:18 AM Finished Request
+01/23/2019 02:32:18 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.5576041892531873-2/value {"text": "C:\\Users\\sujha\\PycharmProjects\\eBayAuto\\src\\imagesTestImage1.png", "value": ["C", ":", "\\", "U", "s", "e", "r", "s", "\\", "s", "u", "j", "h", "a", "\\", "P", "y", "c", "h", "a", "r", "m", "P", "r", "o", "j", "e", "c", "t", "s", "\\", "e", "B", "a", "y", "A", "u", "t", "o", "\\", "s", "r", "c", "\\", "i", "m", "a", "g", "e", "s", "T", "e", "s", "t", "I", "m", "a", "g", "e", "1", ".", "p", "n", "g"], "id": "0.5576041892531873-2", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:32:18 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element/0.5576041892531873-2/value HTTP/1.1" 200 351
+01/23/2019 02:32:18 AM Finished Request
+01/23/2019 02:32:18 AM Message: invalid argument: File not found : C:\Users\sujha\PycharmProjects\eBayAuto\src\imagesTestImage1.png
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+01/23/2019 02:32:18 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element {"using": "xpath", "value": "//a[contains(@style,'block')]//input[@class='upl-fileInp']", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:32:18 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element HTTP/1.1" 200 102
+01/23/2019 02:32:18 AM Finished Request
+01/23/2019 02:32:18 AM POST http://127.0.0.1:54550/session/5760e6dfef8e80aad65f828a67e80f55/element/0.5576041892531873-2/value {"text": "C:\\Users\\sujha\\PycharmProjects\\eBayAuto\\src\\imagesTestImage1.png", "value": ["C", ":", "\\", "U", "s", "e", "r", "s", "\\", "s", "u", "j", "h", "a", "\\", "P", "y", "c", "h", "a", "r", "m", "P", "r", "o", "j", "e", "c", "t", "s", "\\", "e", "B", "a", "y", "A", "u", "t", "o", "\\", "s", "r", "c", "\\", "i", "m", "a", "g", "e", "s", "T", "e", "s", "t", "I", "m", "a", "g", "e", "1", ".", "p", "n", "g"], "id": "0.5576041892531873-2", "sessionId": "5760e6dfef8e80aad65f828a67e80f55"}
+01/23/2019 02:32:18 AM http://127.0.0.1:54550 "POST /session/5760e6dfef8e80aad65f828a67e80f55/element/0.5576041892531873-2/value HTTP/1.1" 200 351
+01/23/2019 02:32:18 AM Finished Request
+01/23/2019 02:32:18 AM Message: invalid argument: File not found : C:\Users\sujha\PycharmProjects\eBayAuto\src\imagesTestImage1.png
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+

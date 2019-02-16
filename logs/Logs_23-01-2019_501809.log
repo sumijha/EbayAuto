@@ -1,0 +1,66 @@
+01/23/2019 02:48:53 PM POST http://127.0.0.1:49169/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized"]}}}
+01/23/2019 02:48:53 PM Starting new HTTP connection (1): 127.0.0.1:49169
+01/23/2019 02:48:54 PM http://127.0.0.1:49169 "POST /session HTTP/1.1" 200 828
+01/23/2019 02:48:54 PM Finished Request
+01/23/2019 02:48:54 PM POST http://127.0.0.1:49169/session/ea618c40cea4a3d35ab9f003f33a6546/url {"url": "https://www.gmx.net/", "sessionId": "ea618c40cea4a3d35ab9f003f33a6546"}
+01/23/2019 02:49:06 PM http://127.0.0.1:49169 "POST /session/ea618c40cea4a3d35ab9f003f33a6546/url HTTP/1.1" 200 72
+01/23/2019 02:49:06 PM Finished Request
+01/23/2019 02:49:06 PM waiting for element //*[@id='freemailLoginUsername']
+01/23/2019 02:49:06 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 02:49:06 PM POST http://127.0.0.1:49169/session/ea618c40cea4a3d35ab9f003f33a6546/element {"using": "xpath", "value": "//*[@id='freemailLoginUsername']", "sessionId": "ea618c40cea4a3d35ab9f003f33a6546"}
+01/23/2019 02:49:06 PM http://127.0.0.1:49169 "POST /session/ea618c40cea4a3d35ab9f003f33a6546/element HTTP/1.1" 200 102
+01/23/2019 02:49:06 PM Finished Request
+01/23/2019 02:49:06 PM POST http://127.0.0.1:49169/session/ea618c40cea4a3d35ab9f003f33a6546/execute {"script": "return arguments[0].scrollIntoView();", "args": [{"ELEMENT": "0.6588822927173665-1", "element-6066-11e4-a52e-4f735466cecf": "0.6588822927173665-1"}], "sessionId": "ea618c40cea4a3d35ab9f003f33a6546"}
+01/23/2019 02:49:06 PM http://127.0.0.1:49169 "POST /session/ea618c40cea4a3d35ab9f003f33a6546/execute HTTP/1.1" 200 72
+01/23/2019 02:49:06 PM Finished Request
+01/23/2019 02:49:06 PM POST http://127.0.0.1:49169/session/ea618c40cea4a3d35ab9f003f33a6546/element {"using": "xpath", "value": "//*[@id='freemailLoginUsername']", "sessionId": "ea618c40cea4a3d35ab9f003f33a6546"}
+01/23/2019 02:49:06 PM http://127.0.0.1:49169 "POST /session/ea618c40cea4a3d35ab9f003f33a6546/element HTTP/1.1" 200 102
+01/23/2019 02:49:06 PM Finished Request
+01/23/2019 02:49:06 PM POST http://127.0.0.1:49169/session/ea618c40cea4a3d35ab9f003f33a6546/element/0.6588822927173665-1/clear {"id": "0.6588822927173665-1", "sessionId": "ea618c40cea4a3d35ab9f003f33a6546"}
+01/23/2019 02:49:07 PM http://127.0.0.1:49169 "POST /session/ea618c40cea4a3d35ab9f003f33a6546/element/0.6588822927173665-1/clear HTTP/1.1" 200 72
+01/23/2019 02:49:07 PM Finished Request
+01/23/2019 02:49:07 PM POST http://127.0.0.1:49169/session/ea618c40cea4a3d35ab9f003f33a6546/element {"using": "xpath", "value": "//*[@id='freemailLoginUsername']", "sessionId": "ea618c40cea4a3d35ab9f003f33a6546"}
+01/23/2019 02:49:07 PM http://127.0.0.1:49169 "POST /session/ea618c40cea4a3d35ab9f003f33a6546/element HTTP/1.1" 200 102
+01/23/2019 02:49:07 PM Finished Request
+01/23/2019 02:49:07 PM POST http://127.0.0.1:49169/session/ea618c40cea4a3d35ab9f003f33a6546/element/0.6588822927173665-1/value {"text": "christian.ganslmayer78@gmx.de", "value": ["c", "h", "r", "i", "s", "t", "i", "a", "n", ".", "g", "a", "n", "s", "l", "m", "a", "y", "e", "r", "7", "8", "@", "g", "m", "x", ".", "d", "e"], "id": "0.6588822927173665-1", "sessionId": "ea618c40cea4a3d35ab9f003f33a6546"}
+01/23/2019 02:49:07 PM http://127.0.0.1:49169 "POST /session/ea618c40cea4a3d35ab9f003f33a6546/element/0.6588822927173665-1/value HTTP/1.1" 200 72
+01/23/2019 02:49:07 PM Finished Request
+01/23/2019 02:49:07 PM POST http://127.0.0.1:49169/session/ea618c40cea4a3d35ab9f003f33a6546/element {"using": "xpath", "value": "//*[@id='freemailLoginPassword']", "sessionId": "ea618c40cea4a3d35ab9f003f33a6546"}
+01/23/2019 02:49:07 PM http://127.0.0.1:49169 "POST /session/ea618c40cea4a3d35ab9f003f33a6546/element HTTP/1.1" 200 102
+01/23/2019 02:49:07 PM Finished Request
+01/23/2019 02:49:07 PM POST http://127.0.0.1:49169/session/ea618c40cea4a3d35ab9f003f33a6546/element/0.6588822927173665-2/clear {"id": "0.6588822927173665-2", "sessionId": "ea618c40cea4a3d35ab9f003f33a6546"}
+01/23/2019 02:49:07 PM http://127.0.0.1:49169 "POST /session/ea618c40cea4a3d35ab9f003f33a6546/element/0.6588822927173665-2/clear HTTP/1.1" 200 72
+01/23/2019 02:49:07 PM Finished Request
+01/23/2019 02:49:07 PM POST http://127.0.0.1:49169/session/ea618c40cea4a3d35ab9f003f33a6546/element {"using": "xpath", "value": "//*[@id='freemailLoginPassword']", "sessionId": "ea618c40cea4a3d35ab9f003f33a6546"}
+01/23/2019 02:49:07 PM http://127.0.0.1:49169 "POST /session/ea618c40cea4a3d35ab9f003f33a6546/element HTTP/1.1" 200 102
+01/23/2019 02:49:07 PM Finished Request
+01/23/2019 02:49:07 PM POST http://127.0.0.1:49169/session/ea618c40cea4a3d35ab9f003f33a6546/element/0.6588822927173665-2/value {"text": "a1KSDFu7", "value": ["a", "1", "K", "S", "D", "F", "u", "7"], "id": "0.6588822927173665-2", "sessionId": "ea618c40cea4a3d35ab9f003f33a6546"}
+01/23/2019 02:49:07 PM http://127.0.0.1:49169 "POST /session/ea618c40cea4a3d35ab9f003f33a6546/element/0.6588822927173665-2/value HTTP/1.1" 200 72
+01/23/2019 02:49:07 PM Finished Request
+01/23/2019 02:49:07 PM waiting for element //*[@id='freemailLoginPassword']/ancestor::fieldset//input[@value='Login']
+01/23/2019 02:49:07 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 02:49:07 PM POST http://127.0.0.1:49169/session/ea618c40cea4a3d35ab9f003f33a6546/element {"using": "xpath", "value": "//*[@id='freemailLoginPassword']/ancestor::fieldset//input[@value='Login']", "sessionId": "ea618c40cea4a3d35ab9f003f33a6546"}
+01/23/2019 02:49:07 PM http://127.0.0.1:49169 "POST /session/ea618c40cea4a3d35ab9f003f33a6546/element HTTP/1.1" 200 102
+01/23/2019 02:49:07 PM Finished Request
+01/23/2019 02:49:07 PM POST http://127.0.0.1:49169/session/ea618c40cea4a3d35ab9f003f33a6546/element/0.6588822927173665-3/click {"id": "0.6588822927173665-3", "sessionId": "ea618c40cea4a3d35ab9f003f33a6546"}
+01/23/2019 02:49:07 PM http://127.0.0.1:49169 "POST /session/ea618c40cea4a3d35ab9f003f33a6546/element/0.6588822927173665-3/click HTTP/1.1" 200 72
+01/23/2019 02:49:07 PM Finished Request
+01/23/2019 02:49:11 PM POST http://127.0.0.1:49169/session/ea618c40cea4a3d35ab9f003f33a6546/frame {"id": null, "sessionId": "ea618c40cea4a3d35ab9f003f33a6546"}
+01/23/2019 02:49:12 PM http://127.0.0.1:49169 "POST /session/ea618c40cea4a3d35ab9f003f33a6546/frame HTTP/1.1" 200 72
+01/23/2019 02:49:12 PM Finished Request
+01/23/2019 02:49:12 PM POST http://127.0.0.1:49169/session/ea618c40cea4a3d35ab9f003f33a6546/frame {"id": "thirdPartyFrame_home", "sessionId": "ea618c40cea4a3d35ab9f003f33a6546"}
+01/23/2019 02:49:12 PM http://127.0.0.1:49169 "POST /session/ea618c40cea4a3d35ab9f003f33a6546/frame HTTP/1.1" 200 72
+01/23/2019 02:49:12 PM Finished Request
+01/23/2019 02:49:12 PM waiting for element //a[@title='Einstellungen']
+01/23/2019 02:49:12 PM __init__() takes 2 positional arguments but 3 were given
+01/23/2019 02:49:12 PM POST http://127.0.0.1:49169/session/ea618c40cea4a3d35ab9f003f33a6546/element {"using": "xpath", "value": "//a[@title='Einstellungen']", "sessionId": "ea618c40cea4a3d35ab9f003f33a6546"}
+01/23/2019 02:49:12 PM http://127.0.0.1:49169 "POST /session/ea618c40cea4a3d35ab9f003f33a6546/element HTTP/1.1" 200 355
+01/23/2019 02:49:12 PM Finished Request
+01/23/2019 02:49:12 PM Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='Einstellungen']"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10586 x86_64)
+
+01/23/2019 02:49:12 PM 'NoneType' object has no attribute 'click'
+01/23/2019 02:49:12 PM DELETE http://127.0.0.1:49169/session/ea618c40cea4a3d35ab9f003f33a6546/window {"sessionId": "ea618c40cea4a3d35ab9f003f33a6546"}
+01/23/2019 02:49:15 PM http://127.0.0.1:49169 "DELETE /session/ea618c40cea4a3d35ab9f003f33a6546/window HTTP/1.1" 200 72
+01/23/2019 02:49:15 PM Finished Request

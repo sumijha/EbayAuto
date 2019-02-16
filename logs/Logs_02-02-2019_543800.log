@@ -1,0 +1,11 @@
+02/02/2019 06:08:57 AM POST http://127.0.0.1:61543/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--ignore-certificate-errors", "--ignore-ssl-errors", "--start-maximized"]}}}
+02/02/2019 06:08:57 AM Starting new HTTP connection (1): 127.0.0.1:61543
+02/02/2019 06:08:59 AM http://127.0.0.1:61543 "POST /session HTTP/1.1" 200 829
+02/02/2019 06:08:59 AM Finished Request
+02/02/2019 06:08:59 AM Successfully launched the Home Page
+02/02/2019 06:09:04 AM POST http://127.0.0.1:61543/session/11ff56a22649a179b2f0bc1cb9493361/url {"url": "https://www.iaai.com/Vehicle?itemID=30897142&amp;RowNumber=0", "sessionId": "11ff56a22649a179b2f0bc1cb9493361"}
+02/02/2019 06:09:15 AM http://127.0.0.1:61543 "POST /session/11ff56a22649a179b2f0bc1cb9493361/url HTTP/1.1" 200 72
+02/02/2019 06:09:15 AM Finished Request
+02/02/2019 06:09:32 AM GET http://127.0.0.1:61543/session/11ff56a22649a179b2f0bc1cb9493361/source {"sessionId": "11ff56a22649a179b2f0bc1cb9493361"}
+02/02/2019 06:09:32 AM http://127.0.0.1:61543 "GET /session/11ff56a22649a179b2f0bc1cb9493361/source HTTP/1.1" 200 342796
+02/02/2019 06:09:32 AM Finished Request
